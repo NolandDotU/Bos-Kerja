@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6A42C2 !important;
+  }
+  
+  .nav-item-btn{
+    background-color: #6A42C2;
+    border-radius: 5px;
+    text-align: center;
+    color: white !important;
+  }
+
+  .nav-item-btn:hover{
+    background-color: #8B5DFF;
+  }
+  .navbar .nav-link {
+    color: #333 ;
+  }
+  
+
+  .navbar .nav-link.nav-link.off:hover{
+    text-decoration: underline #6A42C2 2px;
+  }
+  .navbar .nav-link.active {
+    color: #6A42C2 !important;
+    font-weight: bold;
+  }
+
+  .logo{
+    width: 100px;
+  }
+  
+  .hero {
+    height: 500px;
+    background: url('/image/no-jobs.jpg') center/cover no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .hero-btn{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 15px;
+    background-color: #6A42C2;
+    border-radius: 5px;
+    text-align: center;
+    color: white !important;
+  }
+
+  .hero-btn:hover{
+    background-color: #8B5DFF;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+  .hero .container {
+    position: relative;
+    z-index: 2; 
+  }
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px #6A42C2;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 10px #6A42C2;
+  }
+  
+  .hero .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form .btn-primary {
+    background: #6A42C2;
+    border: none;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  form .btn-primary:hover {
+    background:#8B5DFF;
+  }
+  
+  .logo-form{
+    width: 200px;
+    
+  }
+
+  /* filter */
+
+  .btn-reset{
+    background-color: #6A42C2;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .btn-reset:hover{
+    background-color: #8B5DFF;
+    color: white;
+  }
+
+
+  .form-check-input:checked{
+    color: #6A42C2;
+    background-color: #6A42C2;
+    border: none;
+  }
+
+  /* Slider */
+
+  .slide{
+    accent-color: #6A42C2;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .slider:hover{
+    accent-color: #8B5DFF;
+  }
+  
+  /* Job Cards */
+
+  .text-salary{
+    color: #6A42C2;
+    font-weight: bold;
+  }
+  .job-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-btn{
+    border: none;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #6A42C2;
+    border-radius: 5px;
+    text-align: center;
+    color: white !important;
+  }
+
+  .card-btn:hover{
+    background-color: #b79aff;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #6A42C2;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  /* main */
+  .container {
+    max-width: 1140px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+
+  /* footer */
+  footer {
+    margin-top: auto;
+    width: 100%;
+    height: 5rem;
+  }

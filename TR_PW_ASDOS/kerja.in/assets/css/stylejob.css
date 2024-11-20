@@ -1,0 +1,88 @@
+/* Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  .btn-reset{
+    background-color: #6A42C2;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  .btn-reset:hover{
+    background-color: #8B5DFF;
+    color: white;
+  }
+
+    
+  .form-check-input:checked{
+    color: #6A42C2;
+    background-color: #6A42C2;
+    border: none;
+  }
+  
+  .job-card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .sidebar {
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .card-btn {
+    background-color: #6A42C2;
+    border-radius: 5px ;
+    border: none;
+    color: white;
+    padding: 7px;
+  }
+  
+  .card-btn:hover {
+    background-color: #8B5DFF;
+  }
+
+  /* navbar */
+  .navbar {
+    background-color: white !important;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6A42C2 !important;
+  }
+  
+  .nav-item-btn{
+    background-color: #6A42C2;
+    border-radius: 5px;
+    text-align: center;
+    color: white !important;
+  }
+
+  .nav-item-btn:hover{
+    background-color: #8B5DFF;
+  }
+  .navbar .nav-link {
+    color: #333 ;
+  }
+  
+
+  .navbar .nav-link.nav-link.off:hover{
+    text-decoration: underline #6A42C2 2px;
+  }
+  .navbar .nav-link.active {
+    color: #6A42C2 !important;
+    font-weight: bold;
+  }
+
+  .logo{
+    width: 100px;
+  }
