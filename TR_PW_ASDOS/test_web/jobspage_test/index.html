@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Listings</title>
+  <!-- Link to Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Link to Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Main Container -->
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Filter Sidebar (Left) -->
+      <div class="col-md-3">
+        <div class="filter-box">
+          <h4 class="mb-3">Filters</h4>
+
+          <!-- Salary Filter -->
+          <div class="mb-3">
+            <label for="salaryRange" class="form-label">Salary Range:</label>
+            <input type="range" class="form-range" id="salaryRange" min="2000" max="20000" step="500" value="7500">
+            <span id="salaryRangeValue">$7,500 - $20,000</span>
+          </div>
+
+          <!-- Job Category Filters (Checkboxes) -->
+          <div class="mb-3">
+            <label class="form-label">Select Job Categories:</label>
+            <div>
+              <input type="checkbox" id="uxDesigner" class="jobCategory" checked> UX Designer
+              <input type="checkbox" id="developer" class="jobCategory" checked> Developer
+              <input type="checkbox" id="designer" class="jobCategory" checked> Designer
+              <input type="checkbox" id="analyst" class="jobCategory" checked> Analyst
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Job Cards Section (Right) -->
+      <div class="col-md-9">
+        <div class="row" id="jobCardsContainer">
+          <!-- Job cards will be inserted here dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link to Bootstrap JS (with Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Link to Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
